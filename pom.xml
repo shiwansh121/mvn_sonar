@@ -107,9 +107,9 @@
                 <version>1.2.1-0</version>
                 <configuration>
                     <!-- If ZAP is running on localhost, there is no need to define zapHost -->
-                    <zapHost>http://34.86.51.193</zapHost>
+                    <zapHost>http://35.200.160.59</zapHost>
                     <zapPort>8080</zapPort>
-                    <targetUrl>http://34.69.103.139:8098/rest/demo</targetUrl>
+                    <targetUrl>http://35.200.160.59/rest/demo</targetUrl>
                 </configuration>
             </plugin>
             <!-- <plugin>
@@ -118,8 +118,8 @@
 	               <version>1.2.1-0</version>
 	               <configuration>
 		               <zapPort>8080</zapPort>
-			       <zapHost>http://34.86.51.193</zapHost>
-		               <targetUrl>http://34.86.51.193:8098/rest/demo</targetUrl>
+			       <zapHost>http://35.200.160.59</zapHost>
+		               <targetUrl>http://35.200.160.59:8098/rest/demo</targetUrl>
 		               <shouldRunWithDocker>true</shouldRunWithDocker>
                         </configuration>
             </plugin> -->
